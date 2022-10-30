@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: green;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+h2 {
+	text-align: center;
+	background: red;
+	color:white;
+	text-transform: uppercase
+		}
+	h1{
+		 text-transform: uppercase
+	}	
+		
+
+</style>
+</head>
+<body>
+
+<h2>Bolsominios: Quem são onde vivem e o que fazem</h2>
+<h1>Espaço destinado para trazer a verdade sobre os seguidores do BOZONARO. Eram pais de família, trabalhadores, porém desvirtuaram seu caminho após ingressarem no submundo da politica. 
+Vejamos a verdade sobre alguns deles.</h1>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/jaum.jpg" alt="jaum" style="width:100%">
+      <div class="container">
+        <h2>Jaum Fumaça</h2>
+        <p class="title">Tráfico de pessoas</p>
+        <p>Vulgo Jaum da fumaça, por onde passa deixa uma espessa fumaça no ar.
+            Meliante procurado pela intepol. Acusado de tráfico humano,
+			sequetrou uma jovem e a obrigou a morar com ele nos Estados Unidos. Sujeito perigoso.
+			Paga-se recompensa!</p><br>
+        <p>Aparência: 1,90m, careca, empenado para o lado esquerdo</p>
+        <p><button class="button">Procurado</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/elvio.jpg" alt="elvio" style="width:100%">
+      <div class="container">
+        <h2>Elvio Lero-lero</h2>
+        <p class="title">Lero-lero com velhinhas</p>
+        <p>Fica postando fotos com papai noel, as vezes até senta no colo do bom velhinho. Nao engane-se
+		   esse meliante gosta de pegar velhinhas inocentes e paga de bom moço em redes sociais.
+           Procurado em toda regiao metropolitana de Belo Horizonte evadiu-se para o interior de Minas Gerais. 
+           Qualquer informacao ligue 181.</p><br><br><br>
+        <p>Aparência: 1,50m, branco, cabelo liso e uma estrela do PT na bunda</p>
+        <p><button class="button">Procurado</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="images/sabino.jpg" alt="sabino" style="width:100%">
+      <div class="container">
+        <h2>Sabino</h2>
+        <p class="title">Tombador de Caminhoões</p>
+        <p>Meliante de alta pericuosidade, não possui redes sociais justamente para esconder sua face. 
+		   Sujeito de dificil identificacao... Cuidado ao transitar sentido Sabara. Ao ver uma sombra atras da moita
+		   chame a policia, pose ser esse sujeito esperando um caminhao de picanha passar.</p><br><br><br>
+        <p>Aparência: Magro como uma vara de virar tripa, moreno cor de..... olhar encapetado, usa ené no cabelo</p>
+        <p><button class="button">Procurado</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+<div class="column">
+    <div class="card">
+      <img src="images/burro.jpg" alt="burro" style="width:100%">
+      <div class="container">
+        <h2>Shereck</h2>
+        <p class="title">Ator de filmes animados</p>
+        <p>Atuou como o burrinho do filme Shereck. Depois disso entrou no submundo da politica, dissemina
+           Fake News nas redes sociais</p><br>
+        <p>Aparência: 1,70m, cor de burro fugido, sem cabelo, varias tatuagens de palhaco pelo corpo.</p>
+        <p><button class="button">Procurado</button></p>
+      </div>
+    </div>
+  </div>
+
+<div class="column">
+    <div class="card">
+      <img src="images/quem.jpg" alt="quem" style="width:100%">
+      <div class="container">
+        <h2>Quem?!</h2>
+        <p class="title">Apenas um meliante</p>
+        <p>Sujeito perigoso, vive nas sombras, age como uma sombra, passa perto de você sem sem percebido. 
+           Quando você notar ja foi embora sua carteira, sua bolsa e seu carro.</p><br>
+        <p>Aparência: 1,20m, branco, cabelo liso e cara de bobo</p>
+        <p><button class="button">Procurado</button></p>
+      </div>
+    </div>
+  </div>
+
+<div class="column">
+    <div class="card">
+      <img src="images/tunim.jpeg" alt="tunim" style="width:100%">
+      <div class="container">
+        <h2>Tuninho</h2>
+        <p class="title">Algo de errado não esta certo</p>
+        <p>Sujeito não possue digitais cadastradas, without face, apenas segue cegamente o rei do Cangaço.
+           Nao é posível aproximar-se do mesmo é muito arredio. </p> <br>
+        <p>Without Face</p>
+        <p><button class="button">Procurado</button></p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
